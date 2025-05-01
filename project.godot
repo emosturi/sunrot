@@ -13,6 +13,14 @@ config_version=5
 config/name="Sunrot"
 config/features=PackedStringArray("4.4", "Forward Plus")
 
+[display]
+
+window/size/viewport_width=455
+window/size/viewport_height=256
+window/stretch/mode="viewport"
+window/stretch/aspect="keep_height"
+window/stretch/scale_mode="integer"
+
 [rendering]
 
 renderer/rendering_method="mobile"
