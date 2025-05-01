@@ -1,0 +1,30 @@
+# Godot 4+ specific ignores
+.godot/
+/android/
+export_presets.cfg
+*.import
+*.translation
+
+# Sistema operativo y editores
+.DS_Store          # macOS
+.thumbs.db         # Windows
+.idea/             # JetBrains IDEs
+.vscode/           # VS Code (opcional)
+
+# Archivos generados por Godot
+*.tmp
+*.log
+*.pck
+*.zip
+
+# Binarios y ejecutables
+*.exe
+*.a
+*.so
+*.dll
+
+# Si usas C# (opcional)
+bin/
+obj/
+*.csproj
+*.sln
